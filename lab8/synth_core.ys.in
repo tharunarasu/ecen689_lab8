@@ -1,0 +1,5 @@
+ghdl --std=08 @CORE_FILES@ microwatt_top.vhdl -e microwatt_top
+synth -top microwatt_top
+dfflibmap -liberty @LIB@
+abc -liberty @LIB@
+stat -liberty @LIB@

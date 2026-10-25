@@ -1,0 +1,16 @@
+================= ECEN 689 Lab 8 answers =================
+Team number: ____
+Members present: ____
+
+A1 (paste the ANALYZE_RC line from Step 3):
+
+A2 (paste the DESIGN_OK line from Step 4):
+
+A3 (paste the SIM_RC line from Step 5):
+
+A4 (paste the "Chip area" line from Step 6):
+
+A5 (your menu letter S / M / L):
+
+A6 (fit check: does A4 pass the 5,800,000 limit? YES/NO):
+==========================================================

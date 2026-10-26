@@ -1,16 +1,16 @@
 ================= ECEN 689 Lab 8 answers =================
-Team number: ____
-Members present: ____
+Team number: 8
+Members present: Ellickal Allen Appukuttan, Arun Vijayakumar, Joel Joy, Tharun Arasu Sivakumar, Saivarshan Sridharan, Trisheta Barua
 
-A1 (paste the ANALYZE_RC line from Step 3):
+A1: CORE_MAKE_RC=0
 
-A2 (paste the DESIGN_OK line from Step 4):
+A2: DESIGN_OK team8 menu=S
 
-A3 (paste the SIM_RC line from Step 5):
+A3: multiply_tb_course.vhdl:84:13:@290ns:(report note): ALL MULTIPLY TESTS PASSED (7 vectors)
 
-A4 (paste the "Chip area" line from Step 6):
+A4: Chip area for top module '\microwatt_top': 4036618.937598
 
-A5 (your menu letter S / M / L):
+A5 (your menu letter S / M / L): S
 
-A6 (fit check: does A4 pass the 5,800,000 limit? YES/NO):
+A6 (fit check: does A4 pass the 5,800,000 limit? YES/NO): YES
 ==========================================================

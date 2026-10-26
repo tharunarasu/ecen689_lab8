@@ -12,7 +12,7 @@
 * **CPU Compilation (Step 3):** Navigated into `microwatt_src/`, imported all 47 VHDL source files into the GHDL work library via `ghdl -i --std=08 $(cat ../lab8/core_files.txt)`, and invoked `ghdl -m --std=08 core`. Observed and verified clean compilation with return code `CORE_MAKE_RC=0`, recording the line into `../lab8/answers.txt` (line A1).
 * **Top-Level Configuration & Design (Step 4):** Copied `microwatt_top_skeleton.vhdl` to `microwatt_top.vhdl`. Using `nano`, I modified the `TEAM CONFIGURATION BLOCK` to set the core parameters (Menu M: `CFG_HAS_FPU := false;`, `CFG_ICACHE_NUM_LINES := 32;`, `CFG_DCACHE_NUM_LINES := 32;`), compiled the top-level entity with `ghdl -i --std=08 microwatt_top.vhdl` and `ghdl -m --std=08 microwatt_top`, and verified the resulting `DESIGN_OK team<N> menu=M` string for line A2.
 * **Unit Simulation (Step 5):** Copied `multiply_tb_course.vhdl` into the working directory, analyzed and elaborated the multiplier testbench, and ran the simulation using `ghdl -r --std=08 multiply_tb_course`. Confirmed that all 7 directed test vectors passed with `SIM_RC=0` and recorded the confirmation to line A3.
-* **Synthesis Execution & Monitoring (Step 6):** Returned to the root project directory `~/ecen689_lab8`, attempted Slurm job dispatch, managed queue blockers, transitioned to the background login-node synthesis flow via `bash lab8/synth_core_loginnode.sh`, and tracked live progress inside the tmux session using `tail -f synth_core_tmux.log`.
+* **Synthesis Execution & Monitoring (Step 6):
 
 ---
 
